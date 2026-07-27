@@ -91,6 +91,3 @@ npm run dev
 The application will be running at `http://localhost:5173`.
 
 ---
-
-## 🎥 Demonstration Video
-*(Insert link to YouTube/Google Drive video here)*
