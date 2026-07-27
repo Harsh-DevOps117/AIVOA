@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-primary: #cc785c;
+  --color-brand-primary-active: #a9583e;
+  --color-brand-primary-disabled: #e6dfd8;
+  --color-brand-canvas: #faf9f5;
+  --color-brand-surface-soft: #f5f0e8;
+  --color-brand-surface-card: #efe9de;
+  --color-brand-surface-dark: #181715;
+  --color-brand-surface-dark-elevated: #252320;
+  --color-brand-hairline: #e6dfd8;
+  --color-brand-ink: #141413;
+  --color-brand-muted: #6c6a64;
+  --color-brand-on-primary: #ffffff;
+  --color-brand-on-dark: #faf9f5;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-canvas text-brand-ink antialiased;
+    font-family: 'Inter', -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6, .font-display {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+  }
+  
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
